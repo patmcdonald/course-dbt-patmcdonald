@@ -4,3 +4,10 @@ tasks:
 ports:
   - port: 8000
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - github.vscode-pull-request-github
+    - ms-toolsai.jupyter
+    - ms-python.python
+    - cweijan.vscode-database-client2
