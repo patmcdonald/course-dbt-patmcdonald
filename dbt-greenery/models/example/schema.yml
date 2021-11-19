@@ -26,4 +26,9 @@ models:
       - name: name
         tests:
           - not_null
-          - unique 
+      - name: height
+        tests:
+          - positive_values
+      - name: weight
+        tests:
+          - positive_values
