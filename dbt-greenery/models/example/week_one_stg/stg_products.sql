@@ -11,7 +11,7 @@ with products_source as(
 
 select
     id
-    , products_source
+    , products_id
     , name
     , price
     , quantity
