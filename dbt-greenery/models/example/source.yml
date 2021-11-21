@@ -21,37 +21,37 @@ sources:
         description: >
           Contains demographic information about each superhero
 
-       - name: users 
+      - name: users 
         loaded_at_field: created_at
         description: >
           Contains contact information about each users
        
-       - name: addresses 
+      - name: addresses 
         loaded_at_field: created_at
         description: >
           Contains address information about each users
 
-       - name: events 
+      - name: events 
         loaded_at_field: created_at
         description: >
           Contains user event information about sessions
 
-       - name: orders 
+      - name: orders 
         loaded_at_field: created_at
         description: >
           Contains information for each orders
 
-       - name: order_items 
+      - name: order_items 
         loaded_at_field: created_at
         description: >
           Contains order information
 
-       - name: products
+      - name: products
         loaded_at_field: created_at
         description: >
           Contains product information
 
-       - name: promos 
+      - name: promos 
         loaded_at_field: created_at
         description: >
           Contains promotion information
