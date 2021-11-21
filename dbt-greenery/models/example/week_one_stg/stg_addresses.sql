@@ -12,7 +12,7 @@ with addresses_source as (
 
 select
     id
-    , addresses_id
+    , address_id
     , address
     , zipcode
     , state

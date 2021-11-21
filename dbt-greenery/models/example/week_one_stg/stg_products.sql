@@ -6,7 +6,7 @@
 }}
 
 with products_source as(
-    select * from {{ source('tutorial' 'products') }}
+    select * from {{ source('tutorial', 'products') }}
 )
 
 select

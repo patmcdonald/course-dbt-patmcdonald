@@ -6,13 +6,13 @@
 }}
 
 with promos_source as(
-    select * from {{ source 'tutorial', 'promos' }}
+    select * from {{ source('tutorial', 'promos') }}
 )
 
 select
     id
     , promo_id
-    , discount
+    , discout as discount
     , status
 
 from promos_source
